@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Annual Tech Conference 2024</h1>
+    </header>
+
+    <section class="form-section">
+        <h2>Register Now</h2>
+        <form id="registrationForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Your full name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@domain.com" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="1234567890" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>Questions? Contact us at <a href="mailto:info@techconference.com">info@techconference.com</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
